@@ -38,12 +38,6 @@ body {
   transition: width 0.3s;
 }
 
-@media screen and (max-width: 640px) {
-  .container {
-    width: 320px;
-  }
-}
-
 .header {
   display: flex;
   align-items: center;
@@ -56,7 +50,7 @@ body {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .questions {
@@ -87,4 +81,14 @@ body {
 .answer {
   margin-bottom: 1.5rem;
   color: var(--grayish-purple);
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    width: 320px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
 }
