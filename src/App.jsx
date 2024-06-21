@@ -16,7 +16,7 @@ function Question({ question, answer, expand, onClick }) {
 }
 
 export default function App() {
-  const [selected, setSelected] = useState(null)
+  const [selected, setSelected] = useState(0)
 
   function handleClick(i) {
     if (selected === i) {
