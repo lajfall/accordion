@@ -50,7 +50,7 @@ body {
 }
 
 .title {
-  font-size: 4rem;
+  font-size: 64px;
 }
 
 .questions {
@@ -89,6 +89,6 @@ body {
   }
 
   .title {
-    font-size: 2rem;
+    font-size: 40px;
   }
 }
