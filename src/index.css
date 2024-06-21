@@ -71,6 +71,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: color 0.1s;
 }
 
 .question:hover {
